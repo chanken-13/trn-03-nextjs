@@ -39,6 +39,62 @@ const Home: NextPage = () => {
         </p>
 
         <div>
+        <span>sample</span>
+          <Links>
+            <Link legacyBehavior href="sample">
+              <a>sample</a>
+            </Link>
+          </Links>
+          <br />
+
+        <span>レンダリング</span>
+          <Links>
+            <Link legacyBehavior href="/ssg">
+              <a>ssg</a>
+            </Link>
+            <Link legacyBehavior href="/ssr">
+              <a>ssr</a>
+            </Link>
+            <Link legacyBehavior href="/isr">
+              <a>isr</a>
+            </Link>
+          </Links>
+          <br />
+
+          <span>動的ルーティング</span>
+          <Links>
+            <Link legacyBehavior href="/posts/1">
+              <a>/posts/1</a>
+            </Link>
+            <Link legacyBehavior href="/posts/2">
+              <a>/posts/2</a>
+            </Link>
+            <Link legacyBehavior href="/posts/3">
+              <a>/posts/3</a>
+            </Link>
+          </Links>
+          <br />
+
+          <span>Next.jsの機能</span>
+          <Links>
+            <Link legacyBehavior href="link">
+              <a>Link</a>
+            </Link>
+            <Link legacyBehavior href="image-sample">
+              <a>画像の表示</a>
+            </Link>
+            <Link legacyBehavior href="sayhello">
+              <a>APIルート</a>
+            </Link>
+            <Link legacyBehavior href="env-sample">
+              <a>環境変数</a>
+            </Link>
+            <Link legacyBehavior href="sample">
+              <a>環境変数</a>
+            </Link>
+          </Links>
+          <br />
+
           <span>以下styled-componentの各サンプルコードのページへのリンクになります</span>
           <Links>
             <Link legacyBehavior href="/badge">
